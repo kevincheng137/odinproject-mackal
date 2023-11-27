@@ -1,0 +1,44 @@
+.odd {
+    background-color: rgb(255, 192, 203);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+/* .odd.third-element or .third-element seems to work fine for multi class*/
+.third-element {
+    font-size: 24px;
+}
+
+#id1 {
+    color: #0000FF;
+    font-size:  36px;
+}
+
+/* Reuse third-element font size */
+#id2 {
+    background-color: hsl(120, 73%, 75%);
+    font-weight: bold;
+}
+
+.button1, .button2 {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    background-color: yellow;
+}
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
